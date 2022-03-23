@@ -114,6 +114,7 @@
     "refs/heads/libp2p-testnet",
     "refs/heads/master",
     "refs/heads/merge-interop-test",
+    "refs/heads/merge-sync-support",
     "refs/heads/poc-overlay-protocol",
     "refs/heads/reuse-wire",
     "refs/heads/rocksdb-eth1",
@@ -121,7 +122,6 @@
     "refs/heads/rpc-tests",
     "refs/heads/testnets2",
     "refs/heads/unittest2",
-    "refs/heads/various_bug_fix",
     "refs/tags/201903-testnet0",
     ""
   ],
