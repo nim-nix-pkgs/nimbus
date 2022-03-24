@@ -95,6 +95,7 @@
   "license": "Apache License 2.0",
   "web": "https://github.com/status-im/nimbus",
   "refs": [
+    "refs/heads/bug_fix",
     "refs/heads/bump-chronos",
     "refs/heads/caching-db-demo",
     "refs/heads/cliBuilder-all",
@@ -114,7 +115,6 @@
     "refs/heads/libp2p-testnet",
     "refs/heads/master",
     "refs/heads/merge-interop-test",
-    "refs/heads/merge-sync-support",
     "refs/heads/poc-overlay-protocol",
     "refs/heads/reuse-wire",
     "refs/heads/rocksdb-eth1",
