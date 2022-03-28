@@ -11,7 +11,6 @@
   inputs.src-nimbus-master.ref   = "refs/heads/master";
   inputs.src-nimbus-master.owner = "status-im";
   inputs.src-nimbus-master.repo  = "nimbus";
-  inputs.src-nimbus-master.dir   = "";
   inputs.src-nimbus-master.type  = "github";
   
   inputs."bncurve".owner = "nim-nix-pkgs";
