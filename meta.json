@@ -329,6 +329,7 @@
     "refs/heads/libp2p-testnet",
     "refs/heads/master",
     "refs/heads/merge-interop-test",
+    "refs/heads/nim-eth-discv5-size",
     "refs/heads/poc-overlay-protocol",
     "refs/heads/rpc",
     "refs/heads/rpc-tests",
