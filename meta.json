@@ -314,7 +314,6 @@
     "refs/heads/debug",
     "refs/heads/debug-discovery",
     "refs/heads/discovery-debug",
-    "refs/heads/dynamic-radius-adjustments",
     "refs/heads/feature/android-api",
     "refs/heads/feature/nim-import-analysis",
     "refs/heads/feature/vm2-annotate-raises-exceptions",
