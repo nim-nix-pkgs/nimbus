@@ -327,6 +327,8 @@
     "refs/heads/libp2p-testnet",
     "refs/heads/master",
     "refs/heads/merge-interop-test",
+    "refs/heads/multiple-content-items",
+    "refs/heads/objects-inheritance-reorg",
     "refs/heads/poc-overlay-protocol",
     "refs/heads/rpc",
     "refs/heads/rpc-tests",
