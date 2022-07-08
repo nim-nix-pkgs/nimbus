@@ -311,6 +311,7 @@
   "refs": [
     "refs/heads/Content-payload-sszlist",
     "refs/heads/accumulator",
+    "refs/heads/bump_web3",
     "refs/heads/caching-db-demo",
     "refs/heads/debug",
     "refs/heads/debug-discovery",
