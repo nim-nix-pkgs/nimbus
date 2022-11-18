@@ -185,12 +185,41 @@
           "ver": {
             "kind": "verAny"
           }
+        },
+        {
+          "name": "ethash",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "blscurve",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "evmc",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "web3",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
         }
       ],
       "bin": [
         "nimbus",
         "fluffy",
-        "portalcli"
+        "portalcli",
+        "lc_proxy"
       ],
       "binDir": "build",
       "srcDir": "",
@@ -292,12 +321,41 @@
           "ver": {
             "kind": "verAny"
           }
+        },
+        {
+          "name": "ethash",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "blscurve",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "evmc",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "web3",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
         }
       ],
       "bin": [
         "nimbus",
         "fluffy",
-        "portalcli"
+        "portalcli",
+        "lc_proxy"
       ],
       "binDir": "build",
       "srcDir": "",
@@ -312,6 +370,7 @@
     "refs/heads/Content-payload-sszlist",
     "refs/heads/accumulator",
     "refs/heads/async-vm2",
+    "refs/heads/bump-web3",
     "refs/heads/caching-db-demo",
     "refs/heads/debug",
     "refs/heads/debug-discovery",
@@ -332,7 +391,6 @@
     "refs/heads/master",
     "refs/heads/merge-interop-test",
     "refs/heads/poc-overlay-protocol",
-    "refs/heads/portal-light-client-db",
     "refs/heads/rpc",
     "refs/heads/rpc-tests",
     "refs/heads/status_go_dynamic",
@@ -357,7 +415,9 @@
         "examples"
       ],
       "skipFiles": [],
-      "skipExt": [],
+      "skipExt": [
+        "nim"
+      ],
       "installDirs": [],
       "installFiles": [],
       "installExt": [],
@@ -432,10 +492,50 @@
           "ver": {
             "kind": "verAny"
           }
+        },
+        {
+          "name": "rocksdb",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "ethash",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "blscurve",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "evmc",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "web3",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
         }
       ],
-      "bin": [],
-      "binDir": "",
+      "bin": [
+        "nimbus",
+        "fluffy",
+        "portalcli",
+        "lc_proxy"
+      ],
+      "binDir": "build",
       "srcDir": "",
       "backend": "c",
       "ref": "refs/heads/master"
